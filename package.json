@@ -2,7 +2,7 @@
   "name": "phaser-electron-webpack-template",
   "version": "1.0.0",
   "description": "* electron\r * phaser\r * webpack\r * html-webpack-plugin\r * electron-reloader",
-  "main": "electron.js",
+  "main": "start.js",
   "scripts": {
     "build": "webpack",
     "start": "electron . & webpack --watch"
