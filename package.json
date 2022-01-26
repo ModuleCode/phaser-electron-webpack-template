@@ -1,0 +1,21 @@
+{
+  "name": "phaser-electron-webpack-template",
+  "version": "1.0.0",
+  "description": "* electron\r * phaser\r * webpack\r * html-webpack-plugin\r * electron-reloader",
+  "main": "electron.js",
+  "scripts": {
+    "build": "webpack",
+    "start": "electron . & webpack --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^16.0.7",
+    "electron-reloader": "^1.2.1",
+    "html-webpack-plugin": "^5.5.0",
+    "phaser": "^3.55.2",
+    "webpack": "^5.67.0",
+    "webpack-cli": "^4.9.2"
+  }
+}
